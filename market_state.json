@@ -1,27 +1,17 @@
 {
   "api_key_used": false,
   "errors": {
-    "SKHYUSDT.account_long_short": "HTTP 400 https://api.bitget.com/api/v2/mix/market/account-long-short?symbol=SKHYUSDT&period=5m: {\"code\":\"40054\",\"msg\":\"The data fetched by SKHYUSDT is empty\",\"requestTime\":1786435904158,\"data\":null}",
-    "SKHYUSDT.position_long_short": "HTTP 400 https://api.bitget.com/api/v2/mix/market/long-short?symbol=SKHYUSDT&period=5m: {\"code\":\"40054\",\"msg\":\"The data fetched by SKHYUSDT is empty\",\"requestTime\":1786435905309,\"data\":null}",
-    "SKHYUSDT.taker_buy_sell": "HTTP 400 https://api.bitget.com/api/v2/mix/market/taker-buy-sell?symbol=SKHYUSDT&period=5m: {\"code\":\"40054\",\"msg\":\"The data fetched by SKHYUSDT is empty\",\"requestTime\":1786435906469,\"data\":null}"
+    "SKHYUSDT.account_long_short": "HTTP 400 https://api.bitget.com/api/v2/mix/market/account-long-short?symbol=SKHYUSDT&period=5m: {\"code\":\"40054\",\"msg\":\"The data fetched by SKHYUSDT is empty\",\"requestTime\":1786436232692,\"data\":null}",
+    "SKHYUSDT.position_long_short": "HTTP 400 https://api.bitget.com/api/v2/mix/market/long-short?symbol=SKHYUSDT&period=5m: {\"code\":\"40054\",\"msg\":\"The data fetched by SKHYUSDT is empty\",\"requestTime\":1786436233844,\"data\":null}",
+    "SKHYUSDT.taker_buy_sell": "HTTP 400 https://api.bitget.com/api/v2/mix/market/taker-buy-sell?symbol=SKHYUSDT&period=5m: {\"code\":\"40054\",\"msg\":\"The data fetched by SKHYUSDT is empty\",\"requestTime\":1786436234991,\"data\":null}"
   },
   "poll_seconds": 60,
   "source": "bitget_public_api",
   "symbols": {
     "BTCUSDT": {
       "api_errors": {},
-      "avg_volume_20": 69.33212,
+      "avg_volume_20": 67.892785,
       "candles_5m": [
-        {
-          "base_volume": 15.5824,
-          "close": 63951.4,
-          "high": 63967.4,
-          "low": 63933.3,
-          "open": 63933.4,
-          "quote_volume": 996480.16962,
-          "time": "2026-08-10T23:55:00Z",
-          "ts": 1786406100000
-        },
         {
           "base_volume": 70.4504,
           "close": 63921.4,
@@ -1003,20 +993,30 @@
           "ts": 1786435500000
         },
         {
-          "base_volume": 12.2462,
-          "close": 64066.0,
+          "base_volume": 26.785,
+          "close": 64030.9,
           "high": 64066.0,
-          "low": 64056.4,
+          "low": 64030.9,
           "open": 64056.4,
-          "quote_volume": 784548.73849,
+          "quote_volume": 1715518.60673,
           "time": "2026-08-11T08:10:00Z",
           "ts": 1786435800000
+        },
+        {
+          "base_volume": 10.1386,
+          "close": 64054.0,
+          "high": 64054.0,
+          "low": 64030.0,
+          "open": 64030.9,
+          "quote_volume": 649264.60678,
+          "time": "2026-08-11T08:15:00Z",
+          "ts": 1786436100000
         }
       ],
-      "change_24h": -0.01763,
-      "current_volume": 12.2462,
-      "ema20": 64012.187085086625,
-      "ema50": 64008.22153603969,
+      "change_24h": -0.01833,
+      "current_volume": 10.1386,
+      "ema20": 64013.143426985254,
+      "ema50": 64008.14510244677,
       "funding": {
         "funding_rate": 0.0001,
         "funding_rate_interval": 8.0,
@@ -1026,104 +1026,94 @@
       },
       "funding_rate": 0.0001,
       "high_24h": 65299.6,
-      "index_price": 64079.7015,
+      "index_price": 64067.8945,
       "indicators_5m": {
-        "avg_volume_20": 69.33212,
-        "current_volume": 12.2462,
-        "ema20": 64012.187085086625,
-        "ema50": 64008.22153603969,
-        "last_candle_high": 64066.0,
-        "last_candle_low": 64056.4,
+        "avg_volume_20": 67.892785,
+        "current_volume": 10.1386,
+        "ema20": 64013.143426985254,
+        "ema50": 64008.14510244677,
+        "last_candle_high": 64054.0,
+        "last_candle_low": 64030.0,
         "structure": {
-          "direction": "range",
+          "direction": "down",
           "last_close_direction": "up",
-          "pattern": "mixed_or_range"
+          "pattern": "lower_high_lower_low"
         },
-        "today_vwap": 64010.82151024336,
+        "today_vwap": 64011.159536633735,
         "today_vwap_timezone": "Asia/Seoul"
       },
-      "last_candle_high": 64066.0,
-      "last_candle_low": 64056.4,
-      "last_price": 64065.9,
-      "long_account_ratio": 0.6348,
-      "long_position_ratio": 0.6271,
-      "long_short_account_ratio": 1.7382,
-      "long_short_position_ratio": 1.6816,
+      "last_candle_high": 64054.0,
+      "last_candle_low": 64030.0,
+      "last_price": 64054.0,
+      "long_account_ratio": 0.6351,
+      "long_position_ratio": 0.6275,
+      "long_short_account_ratio": 1.7404,
+      "long_short_position_ratio": 1.6845,
       "long_short_ratios": {
         "account_long_short": {
-          "long_account_ratio": 0.6348,
-          "long_short_account_ratio": 1.7382,
-          "short_account_ratio": 0.3652,
-          "ts": "1786435500000"
+          "long_account_ratio": 0.6351,
+          "long_short_account_ratio": 1.7404,
+          "short_account_ratio": 0.3649,
+          "ts": "1786435800000"
         },
         "position_long_short": {
-          "long_ratio": 0.6271,
-          "long_short_ratio": 1.6816,
-          "short_ratio": 0.3729,
-          "ts": "1786435500000"
+          "long_ratio": 0.6275,
+          "long_short_ratio": 1.6845,
+          "short_ratio": 0.3725,
+          "ts": "1786435800000"
         },
         "taker_buy_sell": {
-          "buy_ratio": 0.07124850086888415,
-          "buy_sell_ratio": 0.0767142781847889,
-          "buy_volume": 0.8733,
-          "sell_ratio": 0.9287514991311158,
-          "sell_volume": 11.3838,
-          "ts": "1786435800000"
+          "buy_ratio": 0.6980648215729982,
+          "buy_sell_ratio": 2.311969162419966,
+          "buy_volume": 7.0774,
+          "sell_ratio": 0.30193517842700174,
+          "sell_volume": 3.0612,
+          "ts": "1786436100000"
         }
       },
       "low_24h": 63791.4,
-      "mark_price": 64066.7,
+      "mark_price": 64054.0,
       "open_interest": {
-        "size": 39225.814999999944,
-        "ts": "1786435901108"
+        "size": 39231.47209999995,
+        "ts": "1786436229668"
       },
-      "open_interest_size": 39225.814999999944,
+      "open_interest_size": 39231.47209999995,
       "product_type": "usdt-futures",
-      "short_account_ratio": 0.3652,
-      "short_position_ratio": 0.3729,
+      "short_account_ratio": 0.3649,
+      "short_position_ratio": 0.3725,
       "structure_5m": {
-        "direction": "range",
+        "direction": "down",
         "last_close_direction": "up",
-        "pattern": "mixed_or_range"
+        "pattern": "lower_high_lower_low"
       },
       "symbol": "BTCUSDT",
-      "taker_buy_ratio": 0.07124850086888415,
-      "taker_buy_sell_ratio": 0.0767142781847889,
-      "taker_sell_ratio": 0.9287514991311158,
+      "taker_buy_ratio": 0.6980648215729982,
+      "taker_buy_sell_ratio": 2.311969162419966,
+      "taker_sell_ratio": 0.30193517842700174,
       "ticker": {
-        "base_volume_24h": 30641.9857,
-        "change_24h": -0.01763,
+        "base_volume_24h": 30617.2774,
+        "change_24h": -0.01833,
         "funding_rate": 0.0001,
         "high_24h": 65299.6,
-        "index_price": 64079.7015,
-        "last_price": 64065.9,
+        "index_price": 64067.8945,
+        "last_price": 64054.0,
         "low_24h": 63791.4,
-        "mark_price": 64066.7,
-        "quote_volume_24h": 1970834633.20102,
-        "ticker_ts": "1786435900909",
-        "usdt_volume_24h": 1970834633.20102
+        "mark_price": 64054.0,
+        "quote_volume_24h": 1969194153.77569,
+        "ticker_ts": "1786436229457",
+        "usdt_volume_24h": 1969194153.77569
       },
-      "today_vwap": 64010.82151024336,
-      "updated_at": "2026-08-11T08:11:43Z"
+      "today_vwap": 64011.159536633735,
+      "updated_at": "2026-08-11T08:17:12Z"
     },
     "SKHYUSDT": {
       "api_errors": {
-        "account_long_short": "HTTP 400 https://api.bitget.com/api/v2/mix/market/account-long-short?symbol=SKHYUSDT&period=5m: {\"code\":\"40054\",\"msg\":\"The data fetched by SKHYUSDT is empty\",\"requestTime\":1786435904158,\"data\":null}",
-        "position_long_short": "HTTP 400 https://api.bitget.com/api/v2/mix/market/long-short?symbol=SKHYUSDT&period=5m: {\"code\":\"40054\",\"msg\":\"The data fetched by SKHYUSDT is empty\",\"requestTime\":1786435905309,\"data\":null}",
-        "taker_buy_sell": "HTTP 400 https://api.bitget.com/api/v2/mix/market/taker-buy-sell?symbol=SKHYUSDT&period=5m: {\"code\":\"40054\",\"msg\":\"The data fetched by SKHYUSDT is empty\",\"requestTime\":1786435906469,\"data\":null}"
+        "account_long_short": "HTTP 400 https://api.bitget.com/api/v2/mix/market/account-long-short?symbol=SKHYUSDT&period=5m: {\"code\":\"40054\",\"msg\":\"The data fetched by SKHYUSDT is empty\",\"requestTime\":1786436232692,\"data\":null}",
+        "position_long_short": "HTTP 400 https://api.bitget.com/api/v2/mix/market/long-short?symbol=SKHYUSDT&period=5m: {\"code\":\"40054\",\"msg\":\"The data fetched by SKHYUSDT is empty\",\"requestTime\":1786436233844,\"data\":null}",
+        "taker_buy_sell": "HTTP 400 https://api.bitget.com/api/v2/mix/market/taker-buy-sell?symbol=SKHYUSDT&period=5m: {\"code\":\"40054\",\"msg\":\"The data fetched by SKHYUSDT is empty\",\"requestTime\":1786436234991,\"data\":null}"
       },
-      "avg_volume_20": 783.1890000000001,
+      "avg_volume_20": 818.675,
       "candles_5m": [
-        {
-          "base_volume": 2532.75,
-          "close": 135.42,
-          "high": 135.43,
-          "low": 134.97,
-          "open": 135.06,
-          "quote_volume": 342503.5159,
-          "time": "2026-08-10T23:55:00Z",
-          "ts": 1786406100000
-        },
         {
           "base_volume": 19565.14,
           "close": 135.67,
@@ -2105,20 +2095,30 @@
           "ts": 1786435500000
         },
         {
-          "base_volume": 1141.86,
-          "close": 137.11,
+          "base_volume": 2068.6,
+          "close": 136.93,
           "high": 137.2,
-          "low": 136.96,
+          "low": 136.9,
           "open": 136.96,
-          "quote_volume": 156573.3291,
+          "quote_volume": 283531.4054,
           "time": "2026-08-11T08:10:00Z",
           "ts": 1786435800000
+        },
+        {
+          "base_volume": 289.98,
+          "close": 137.04,
+          "high": 137.04,
+          "low": 136.93,
+          "open": 136.93,
+          "quote_volume": 39724.6546,
+          "time": "2026-08-11T08:15:00Z",
+          "ts": 1786436100000
         }
       ],
-      "change_24h": -0.00868,
-      "current_volume": 1141.86,
-      "ema20": 137.41601114336973,
-      "ema50": 137.50054074479502,
+      "change_24h": -0.00875,
+      "current_volume": 289.98,
+      "ema20": 137.36470160985658,
+      "ema50": 137.4802747842123,
       "funding": {
         "funding_rate": 0.0,
         "funding_rate_interval": 8.0,
@@ -2128,25 +2128,25 @@
       },
       "funding_rate": 0.0,
       "high_24h": 139.2,
-      "index_price": 136.96482484367775,
+      "index_price": 136.828590315608,
       "indicators_5m": {
-        "avg_volume_20": 783.1890000000001,
-        "current_volume": 1141.86,
-        "ema20": 137.41601114336973,
-        "ema50": 137.50054074479502,
-        "last_candle_high": 137.2,
-        "last_candle_low": 136.96,
+        "avg_volume_20": 818.675,
+        "current_volume": 289.98,
+        "ema20": 137.36470160985658,
+        "ema50": 137.4802747842123,
+        "last_candle_high": 137.04,
+        "last_candle_low": 136.93,
         "structure": {
           "direction": "range",
           "last_close_direction": "up",
           "pattern": "mixed_or_range"
         },
-        "today_vwap": 136.8430527923314,
+        "today_vwap": 136.86330458021183,
         "today_vwap_timezone": "Asia/Seoul"
       },
-      "last_candle_high": 137.2,
-      "last_candle_low": 136.96,
-      "last_price": 137.11,
+      "last_candle_high": 137.04,
+      "last_candle_low": 136.93,
+      "last_price": 137.05,
       "long_account_ratio": null,
       "long_position_ratio": null,
       "long_short_account_ratio": null,
@@ -2174,12 +2174,12 @@
         }
       },
       "low_24h": 134.08,
-      "mark_price": 137.1,
+      "mark_price": 136.99,
       "open_interest": {
-        "size": 131053.1199999999,
-        "ts": "1786435903952"
+        "size": 130392.4599999999,
+        "ts": "1786436232495"
       },
-      "open_interest_size": 131053.1199999999,
+      "open_interest_size": 130392.4599999999,
       "product_type": "usdt-futures",
       "short_account_ratio": null,
       "short_position_ratio": null,
@@ -2193,21 +2193,21 @@
       "taker_buy_sell_ratio": null,
       "taker_sell_ratio": null,
       "ticker": {
-        "base_volume_24h": 644883.58,
-        "change_24h": -0.00868,
+        "base_volume_24h": 644083.79,
+        "change_24h": -0.00875,
         "funding_rate": 0.0,
         "high_24h": 139.2,
-        "index_price": 136.96482484367775,
-        "last_price": 137.11,
+        "index_price": 136.828590315608,
+        "last_price": 137.05,
         "low_24h": 134.08,
-        "mark_price": 137.1,
-        "quote_volume_24h": 87960662.1604,
-        "ticker_ts": "1786435903724",
-        "usdt_volume_24h": 87960662.1604
+        "mark_price": 136.99,
+        "quote_volume_24h": 87848446.8418,
+        "ticker_ts": "1786436232289",
+        "usdt_volume_24h": 87848446.8418
       },
-      "today_vwap": 136.8430527923314,
-      "updated_at": "2026-08-11T08:11:46Z"
+      "today_vwap": 136.86330458021183,
+      "updated_at": "2026-08-11T08:17:15Z"
     }
   },
-  "updated_at": "2026-08-11T08:11:46Z"
+  "updated_at": "2026-08-11T08:17:15Z"
 }
