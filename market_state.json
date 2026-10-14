@@ -1,27 +1,15 @@
 {
   "api_key_used": false,
   "errors": {
-    "SKHYUSDT.account_long_short": "HTTP 400 https://api.bitget.com/api/v2/mix/market/account-long-short?symbol=SKHYUSDT&period=5m: {\"code\":\"40054\",\"msg\":\"The data fetched by SKHYUSDT is empty\",\"requestTime\":1791943633211,\"data\":null}",
-    "SKHYUSDT.position_long_short": "HTTP 400 https://api.bitget.com/api/v2/mix/market/long-short?symbol=SKHYUSDT&period=5m: {\"code\":\"40054\",\"msg\":\"The data fetched by SKHYUSDT is empty\",\"requestTime\":1791943634433,\"data\":null}",
-    "SKHYUSDT.taker_buy_sell": "HTTP 400 https://api.bitget.com/api/v2/mix/market/taker-buy-sell?symbol=SKHYUSDT&period=5m: {\"code\":\"40054\",\"msg\":\"The data fetched by SKHYUSDT is empty\",\"requestTime\":1791943635611,\"data\":null}"
+    "SKHYUSDT": "The read operation timed out"
   },
   "poll_seconds": 60,
   "source": "bitget_public_api",
   "symbols": {
     "BTCUSDT": {
       "api_errors": {},
-      "avg_volume_20": 69.21956,
+      "avg_volume_20": 65.73076,
       "candles_5m": [
-        {
-          "base_volume": 336.6917,
-          "close": 82969.3,
-          "high": 83124.9,
-          "low": 82927.0,
-          "open": 83105.0,
-          "quote_volume": 27948249.45896,
-          "time": "2026-10-13T17:50:00Z",
-          "ts": 1791913800000
-        },
         {
           "base_volume": 67.3006,
           "close": 83064.0,
@@ -1003,20 +991,30 @@
           "ts": 1791943200000
         },
         {
-          "base_volume": 13.5304,
-          "close": 83361.0,
+          "base_volume": 43.8813,
+          "close": 83292.6,
           "high": 83361.5,
-          "low": 83305.0,
+          "low": 83271.9,
           "open": 83328.6,
-          "quote_volume": 1127596.82576,
+          "quote_volume": 3656205.08559,
           "time": "2026-10-14T02:05:00Z",
           "ts": 1791943500000
+        },
+        {
+          "base_volume": 5.4629,
+          "close": 83298.1,
+          "high": 83325.7,
+          "low": 83270.0,
+          "open": 83292.6,
+          "quote_volume": 454970.03579,
+          "time": "2026-10-14T02:10:00Z",
+          "ts": 1791943800000
         }
       ],
-      "change_24h": 0.01127,
-      "current_volume": 13.5304,
-      "ema20": 83321.90232678244,
-      "ema50": 83315.250388085,
+      "change_24h": 0.00855,
+      "current_volume": 5.4629,
+      "ema20": 83313.74582460715,
+      "ema50": 83313.7342271822,
       "funding": {
         "funding_rate": 2.1e-05,
         "funding_rate_interval": 8.0,
@@ -1026,1188 +1024,86 @@
       },
       "funding_rate": 2.1e-05,
       "high_24h": 84137.7,
-      "index_price": 83397.9735,
+      "index_price": 83335.147,
       "indicators_5m": {
-        "avg_volume_20": 69.21956,
-        "current_volume": 13.5304,
-        "ema20": 83321.90232678244,
-        "ema50": 83315.250388085,
-        "last_candle_high": 83361.5,
-        "last_candle_low": 83305.0,
+        "avg_volume_20": 65.73076,
+        "current_volume": 5.4629,
+        "ema20": 83313.74582460715,
+        "ema50": 83313.7342271822,
+        "last_candle_high": 83325.7,
+        "last_candle_low": 83270.0,
         "structure": {
-          "direction": "range",
+          "direction": "down",
           "last_close_direction": "up",
-          "pattern": "mixed_or_range"
+          "pattern": "lower_high_lower_low"
         },
-        "today_vwap": 83262.5410988367,
+        "today_vwap": 83280.57405477882,
         "today_vwap_timezone": "Asia/Seoul"
       },
-      "last_candle_high": 83361.5,
-      "last_candle_low": 83305.0,
-      "last_price": 83361.0,
-      "long_account_ratio": 0.6215,
-      "long_position_ratio": 0.6307,
-      "long_short_account_ratio": 1.642,
-      "long_short_position_ratio": 1.7078,
+      "last_candle_high": 83325.7,
+      "last_candle_low": 83270.0,
+      "last_price": 83299.7,
+      "long_account_ratio": 0.622,
+      "long_position_ratio": 0.6311,
+      "long_short_account_ratio": 1.6455,
+      "long_short_position_ratio": 1.7107,
       "long_short_ratios": {
         "account_long_short": {
-          "long_account_ratio": 0.6215,
-          "long_short_account_ratio": 1.642,
-          "short_account_ratio": 0.3785,
-          "ts": "1791943200000"
+          "long_account_ratio": 0.622,
+          "long_short_account_ratio": 1.6455,
+          "short_account_ratio": 0.378,
+          "ts": "1791943500000"
         },
         "position_long_short": {
-          "long_ratio": 0.6307,
-          "long_short_ratio": 1.7078,
-          "short_ratio": 0.3693,
-          "ts": "1791943200000"
+          "long_ratio": 0.6311,
+          "long_short_ratio": 1.7107,
+          "short_ratio": 0.3689,
+          "ts": "1791943500000"
         },
         "taker_buy_sell": {
-          "buy_ratio": 0.6096493821320876,
-          "buy_sell_ratio": 1.5617994547106935,
-          "buy_volume": 8.2488,
-          "sell_ratio": 0.39035061786791225,
-          "sell_volume": 5.2816,
-          "ts": "1791943500000"
+          "buy_ratio": 0.8481392666898534,
+          "buy_sell_ratio": 5.584980713596915,
+          "buy_volume": 4.6333,
+          "sell_ratio": 0.15186073331014663,
+          "sell_volume": 0.8296,
+          "ts": "1791943800000"
         }
       },
-      "low_24h": 82432.0,
-      "mark_price": 83361.7,
+      "low_24h": 82550.0,
+      "mark_price": 83299.7,
       "open_interest": {
-        "size": 32164.195599999974,
-        "ts": "1791943629892"
+        "size": 32178.394899999974,
+        "ts": "1791943894183"
       },
-      "open_interest_size": 32164.195599999974,
+      "open_interest_size": 32178.394899999974,
       "product_type": "usdt-futures",
-      "short_account_ratio": 0.3785,
-      "short_position_ratio": 0.3693,
+      "short_account_ratio": 0.378,
+      "short_position_ratio": 0.3689,
       "structure_5m": {
-        "direction": "range",
+        "direction": "down",
         "last_close_direction": "up",
-        "pattern": "mixed_or_range"
+        "pattern": "lower_high_lower_low"
       },
       "symbol": "BTCUSDT",
-      "taker_buy_ratio": 0.6096493821320876,
-      "taker_buy_sell_ratio": 1.5617994547106935,
-      "taker_sell_ratio": 0.39035061786791225,
+      "taker_buy_ratio": 0.8481392666898534,
+      "taker_buy_sell_ratio": 5.584980713596915,
+      "taker_sell_ratio": 0.15186073331014663,
       "ticker": {
-        "base_volume_24h": 28735.0153,
-        "change_24h": 0.01127,
+        "base_volume_24h": 28633.3084,
+        "change_24h": 0.00855,
         "funding_rate": 2.1e-05,
         "high_24h": 84137.7,
-        "index_price": 83397.9735,
-        "last_price": 83361.0,
-        "low_24h": 82432.0,
-        "mark_price": 83361.7,
-        "quote_volume_24h": 2396135149.83494,
-        "ticker_ts": "1791943629633",
-        "usdt_volume_24h": 2396135149.83494
+        "index_price": 83335.147,
+        "last_price": 83299.7,
+        "low_24h": 82550.0,
+        "mark_price": 83299.7,
+        "quote_volume_24h": 2387765865.61559,
+        "ticker_ts": "1791943893926",
+        "usdt_volume_24h": 2387765865.61559
       },
-      "today_vwap": 83262.5410988367,
-      "updated_at": "2026-10-14T02:07:12Z"
-    },
-    "SKHYUSDT": {
-      "api_errors": {
-        "account_long_short": "HTTP 400 https://api.bitget.com/api/v2/mix/market/account-long-short?symbol=SKHYUSDT&period=5m: {\"code\":\"40054\",\"msg\":\"The data fetched by SKHYUSDT is empty\",\"requestTime\":1791943633211,\"data\":null}",
-        "position_long_short": "HTTP 400 https://api.bitget.com/api/v2/mix/market/long-short?symbol=SKHYUSDT&period=5m: {\"code\":\"40054\",\"msg\":\"The data fetched by SKHYUSDT is empty\",\"requestTime\":1791943634433,\"data\":null}",
-        "taker_buy_sell": "HTTP 400 https://api.bitget.com/api/v2/mix/market/taker-buy-sell?symbol=SKHYUSDT&period=5m: {\"code\":\"40054\",\"msg\":\"The data fetched by SKHYUSDT is empty\",\"requestTime\":1791943635611,\"data\":null}"
-      },
-      "avg_volume_20": 1359.468,
-      "candles_5m": [
-        {
-          "base_volume": 323.81,
-          "close": 155.26,
-          "high": 155.39,
-          "low": 155.07,
-          "open": 155.39,
-          "quote_volume": 50258.0454,
-          "time": "2026-10-13T17:50:00Z",
-          "ts": 1791913800000
-        },
-        {
-          "base_volume": 178.88,
-          "close": 155.36,
-          "high": 155.39,
-          "low": 155.17,
-          "open": 155.26,
-          "quote_volume": 27781.2687,
-          "time": "2026-10-13T17:55:00Z",
-          "ts": 1791914100000
-        },
-        {
-          "base_volume": 287.98,
-          "close": 155.26,
-          "high": 155.43,
-          "low": 155.11,
-          "open": 155.36,
-          "quote_volume": 44714.1939,
-          "time": "2026-10-13T18:00:00Z",
-          "ts": 1791914400000
-        },
-        {
-          "base_volume": 2060.48,
-          "close": 156.0,
-          "high": 156.21,
-          "low": 155.26,
-          "open": 155.26,
-          "quote_volume": 321208.9981,
-          "time": "2026-10-13T18:05:00Z",
-          "ts": 1791914700000
-        },
-        {
-          "base_volume": 362.08,
-          "close": 156.36,
-          "high": 156.36,
-          "low": 155.91,
-          "open": 156.0,
-          "quote_volume": 56562.5455,
-          "time": "2026-10-13T18:10:00Z",
-          "ts": 1791915000000
-        },
-        {
-          "base_volume": 286.57,
-          "close": 156.05,
-          "high": 156.36,
-          "low": 155.96,
-          "open": 156.36,
-          "quote_volume": 44731.2743,
-          "time": "2026-10-13T18:15:00Z",
-          "ts": 1791915300000
-        },
-        {
-          "base_volume": 228.66,
-          "close": 156.04,
-          "high": 156.19,
-          "low": 155.89,
-          "open": 156.05,
-          "quote_volume": 35682.4743,
-          "time": "2026-10-13T18:20:00Z",
-          "ts": 1791915600000
-        },
-        {
-          "base_volume": 423.4,
-          "close": 156.32,
-          "high": 156.47,
-          "low": 156.04,
-          "open": 156.04,
-          "quote_volume": 66186.8619,
-          "time": "2026-10-13T18:25:00Z",
-          "ts": 1791915900000
-        },
-        {
-          "base_volume": 450.44,
-          "close": 156.43,
-          "high": 156.57,
-          "low": 156.32,
-          "open": 156.32,
-          "quote_volume": 70467.2106,
-          "time": "2026-10-13T18:30:00Z",
-          "ts": 1791916200000
-        },
-        {
-          "base_volume": 248.69,
-          "close": 156.05,
-          "high": 156.43,
-          "low": 155.99,
-          "open": 156.43,
-          "quote_volume": 38827.4481,
-          "time": "2026-10-13T18:35:00Z",
-          "ts": 1791916500000
-        },
-        {
-          "base_volume": 206.05,
-          "close": 156.25,
-          "high": 156.33,
-          "low": 156.03,
-          "open": 156.05,
-          "quote_volume": 32187.0001,
-          "time": "2026-10-13T18:40:00Z",
-          "ts": 1791916800000
-        },
-        {
-          "base_volume": 218.24,
-          "close": 156.21,
-          "high": 156.35,
-          "low": 156.08,
-          "open": 156.25,
-          "quote_volume": 34092.5769,
-          "time": "2026-10-13T18:45:00Z",
-          "ts": 1791917100000
-        },
-        {
-          "base_volume": 211.84,
-          "close": 156.12,
-          "high": 156.34,
-          "low": 156.06,
-          "open": 156.21,
-          "quote_volume": 33093.8401,
-          "time": "2026-10-13T18:50:00Z",
-          "ts": 1791917400000
-        },
-        {
-          "base_volume": 193.45,
-          "close": 156.22,
-          "high": 156.27,
-          "low": 155.98,
-          "open": 156.12,
-          "quote_volume": 30202.3031,
-          "time": "2026-10-13T18:55:00Z",
-          "ts": 1791917700000
-        },
-        {
-          "base_volume": 213.99,
-          "close": 156.09,
-          "high": 156.41,
-          "low": 156.04,
-          "open": 156.22,
-          "quote_volume": 33441.7152,
-          "time": "2026-10-13T19:00:00Z",
-          "ts": 1791918000000
-        },
-        {
-          "base_volume": 115.18,
-          "close": 156.36,
-          "high": 156.41,
-          "low": 156.05,
-          "open": 156.09,
-          "quote_volume": 17998.6196,
-          "time": "2026-10-13T19:05:00Z",
-          "ts": 1791918300000
-        },
-        {
-          "base_volume": 137.09,
-          "close": 156.38,
-          "high": 156.44,
-          "low": 156.25,
-          "open": 156.36,
-          "quote_volume": 21430.7027,
-          "time": "2026-10-13T19:10:00Z",
-          "ts": 1791918600000
-        },
-        {
-          "base_volume": 101.2,
-          "close": 156.55,
-          "high": 156.56,
-          "low": 156.33,
-          "open": 156.38,
-          "quote_volume": 15833.0688,
-          "time": "2026-10-13T19:15:00Z",
-          "ts": 1791918900000
-        },
-        {
-          "base_volume": 176.25,
-          "close": 156.91,
-          "high": 156.91,
-          "low": 156.51,
-          "open": 156.55,
-          "quote_volume": 27607.2047,
-          "time": "2026-10-13T19:20:00Z",
-          "ts": 1791919200000
-        },
-        {
-          "base_volume": 132.11,
-          "close": 157.0,
-          "high": 157.07,
-          "low": 156.86,
-          "open": 156.91,
-          "quote_volume": 20736.4917,
-          "time": "2026-10-13T19:25:00Z",
-          "ts": 1791919500000
-        },
-        {
-          "base_volume": 190.17,
-          "close": 157.02,
-          "high": 157.13,
-          "low": 156.92,
-          "open": 157.0,
-          "quote_volume": 29860.7309,
-          "time": "2026-10-13T19:30:00Z",
-          "ts": 1791919800000
-        },
-        {
-          "base_volume": 307.48,
-          "close": 156.63,
-          "high": 157.06,
-          "low": 156.59,
-          "open": 157.02,
-          "quote_volume": 48237.4899,
-          "time": "2026-10-13T19:35:00Z",
-          "ts": 1791920100000
-        },
-        {
-          "base_volume": 728.21,
-          "close": 156.75,
-          "high": 157.02,
-          "low": 156.61,
-          "open": 156.63,
-          "quote_volume": 114199.4257,
-          "time": "2026-10-13T19:40:00Z",
-          "ts": 1791920400000
-        },
-        {
-          "base_volume": 105.11,
-          "close": 156.85,
-          "high": 156.9,
-          "low": 156.63,
-          "open": 156.75,
-          "quote_volume": 16478.4038,
-          "time": "2026-10-13T19:45:00Z",
-          "ts": 1791920700000
-        },
-        {
-          "base_volume": 1196.31,
-          "close": 157.21,
-          "high": 157.35,
-          "low": 156.78,
-          "open": 156.85,
-          "quote_volume": 187879.8954,
-          "time": "2026-10-13T19:50:00Z",
-          "ts": 1791921000000
-        },
-        {
-          "base_volume": 1083.02,
-          "close": 157.41,
-          "high": 157.6,
-          "low": 157.14,
-          "open": 157.21,
-          "quote_volume": 170418.7321,
-          "time": "2026-10-13T19:55:00Z",
-          "ts": 1791921300000
-        },
-        {
-          "base_volume": 603.97,
-          "close": 157.93,
-          "high": 157.99,
-          "low": 157.38,
-          "open": 157.41,
-          "quote_volume": 95266.417,
-          "time": "2026-10-13T20:00:00Z",
-          "ts": 1791921600000
-        },
-        {
-          "base_volume": 706.8,
-          "close": 157.94,
-          "high": 158.06,
-          "low": 157.83,
-          "open": 157.93,
-          "quote_volume": 111629.6277,
-          "time": "2026-10-13T20:05:00Z",
-          "ts": 1791921900000
-        },
-        {
-          "base_volume": 1059.76,
-          "close": 158.23,
-          "high": 158.3,
-          "low": 157.8,
-          "open": 157.94,
-          "quote_volume": 167507.2796,
-          "time": "2026-10-13T20:10:00Z",
-          "ts": 1791922200000
-        },
-        {
-          "base_volume": 657.74,
-          "close": 157.84,
-          "high": 158.27,
-          "low": 157.84,
-          "open": 158.23,
-          "quote_volume": 103938.2472,
-          "time": "2026-10-13T20:15:00Z",
-          "ts": 1791922500000
-        },
-        {
-          "base_volume": 703.94,
-          "close": 157.72,
-          "high": 157.87,
-          "low": 157.59,
-          "open": 157.84,
-          "quote_volume": 111013.3089,
-          "time": "2026-10-13T20:20:00Z",
-          "ts": 1791922800000
-        },
-        {
-          "base_volume": 278.17,
-          "close": 157.67,
-          "high": 157.74,
-          "low": 157.59,
-          "open": 157.72,
-          "quote_volume": 43864.0902,
-          "time": "2026-10-13T20:25:00Z",
-          "ts": 1791923100000
-        },
-        {
-          "base_volume": 238.89,
-          "close": 157.43,
-          "high": 157.69,
-          "low": 157.42,
-          "open": 157.67,
-          "quote_volume": 37636.352,
-          "time": "2026-10-13T20:30:00Z",
-          "ts": 1791923400000
-        },
-        {
-          "base_volume": 202.82,
-          "close": 157.62,
-          "high": 157.63,
-          "low": 157.31,
-          "open": 157.43,
-          "quote_volume": 31932.3417,
-          "time": "2026-10-13T20:35:00Z",
-          "ts": 1791923700000
-        },
-        {
-          "base_volume": 287.27,
-          "close": 157.61,
-          "high": 157.75,
-          "low": 157.51,
-          "open": 157.62,
-          "quote_volume": 45276.8689,
-          "time": "2026-10-13T20:40:00Z",
-          "ts": 1791924000000
-        },
-        {
-          "base_volume": 91.89,
-          "close": 157.64,
-          "high": 157.69,
-          "low": 157.53,
-          "open": 157.61,
-          "quote_volume": 14484.113,
-          "time": "2026-10-13T20:45:00Z",
-          "ts": 1791924300000
-        },
-        {
-          "base_volume": 269.7,
-          "close": 157.68,
-          "high": 157.76,
-          "low": 157.61,
-          "open": 157.64,
-          "quote_volume": 42527.6736,
-          "time": "2026-10-13T20:50:00Z",
-          "ts": 1791924600000
-        },
-        {
-          "base_volume": 348.27,
-          "close": 157.51,
-          "high": 157.68,
-          "low": 157.42,
-          "open": 157.68,
-          "quote_volume": 54857.5176,
-          "time": "2026-10-13T20:55:00Z",
-          "ts": 1791924900000
-        },
-        {
-          "base_volume": 216.77,
-          "close": 157.59,
-          "high": 157.63,
-          "low": 157.46,
-          "open": 157.51,
-          "quote_volume": 34150.2765,
-          "time": "2026-10-13T21:00:00Z",
-          "ts": 1791925200000
-        },
-        {
-          "base_volume": 129.49,
-          "close": 157.65,
-          "high": 157.7,
-          "low": 157.59,
-          "open": 157.59,
-          "quote_volume": 20413.2058,
-          "time": "2026-10-13T21:05:00Z",
-          "ts": 1791925500000
-        },
-        {
-          "base_volume": 54.86,
-          "close": 157.66,
-          "high": 157.67,
-          "low": 157.59,
-          "open": 157.65,
-          "quote_volume": 8648.2854,
-          "time": "2026-10-13T21:10:00Z",
-          "ts": 1791925800000
-        },
-        {
-          "base_volume": 73.87,
-          "close": 157.73,
-          "high": 157.75,
-          "low": 157.64,
-          "open": 157.66,
-          "quote_volume": 11647.2739,
-          "time": "2026-10-13T21:15:00Z",
-          "ts": 1791926100000
-        },
-        {
-          "base_volume": 8.59,
-          "close": 157.77,
-          "high": 157.77,
-          "low": 157.69,
-          "open": 157.73,
-          "quote_volume": 1355.0212,
-          "time": "2026-10-13T21:20:00Z",
-          "ts": 1791926400000
-        },
-        {
-          "base_volume": 160.4,
-          "close": 157.74,
-          "high": 157.79,
-          "low": 157.7,
-          "open": 157.77,
-          "quote_volume": 25302.3934,
-          "time": "2026-10-13T21:25:00Z",
-          "ts": 1791926700000
-        },
-        {
-          "base_volume": 138.02,
-          "close": 157.74,
-          "high": 157.74,
-          "low": 157.64,
-          "open": 157.74,
-          "quote_volume": 21763.376,
-          "time": "2026-10-13T21:30:00Z",
-          "ts": 1791927000000
-        },
-        {
-          "base_volume": 136.43,
-          "close": 157.96,
-          "high": 157.97,
-          "low": 157.74,
-          "open": 157.74,
-          "quote_volume": 21547.5195,
-          "time": "2026-10-13T21:35:00Z",
-          "ts": 1791927300000
-        },
-        {
-          "base_volume": 391.31,
-          "close": 157.93,
-          "high": 158.09,
-          "low": 157.88,
-          "open": 157.96,
-          "quote_volume": 61813.5036,
-          "time": "2026-10-13T21:40:00Z",
-          "ts": 1791927600000
-        },
-        {
-          "base_volume": 47.83,
-          "close": 158.01,
-          "high": 158.01,
-          "low": 157.88,
-          "open": 157.93,
-          "quote_volume": 7553.7798,
-          "time": "2026-10-13T21:45:00Z",
-          "ts": 1791927900000
-        },
-        {
-          "base_volume": 106.07,
-          "close": 158.02,
-          "high": 158.1,
-          "low": 158.0,
-          "open": 158.01,
-          "quote_volume": 16762.0171,
-          "time": "2026-10-13T21:50:00Z",
-          "ts": 1791928200000
-        },
-        {
-          "base_volume": 55.74,
-          "close": 158.0,
-          "high": 158.17,
-          "low": 158.0,
-          "open": 158.02,
-          "quote_volume": 8811.2459,
-          "time": "2026-10-13T21:55:00Z",
-          "ts": 1791928500000
-        },
-        {
-          "base_volume": 158.18,
-          "close": 157.96,
-          "high": 158.05,
-          "low": 157.93,
-          "open": 158.0,
-          "quote_volume": 24989.8441,
-          "time": "2026-10-13T22:00:00Z",
-          "ts": 1791928800000
-        },
-        {
-          "base_volume": 215.17,
-          "close": 157.89,
-          "high": 158.03,
-          "low": 157.8,
-          "open": 157.96,
-          "quote_volume": 33977.7716,
-          "time": "2026-10-13T22:05:00Z",
-          "ts": 1791929100000
-        },
-        {
-          "base_volume": 160.63,
-          "close": 157.81,
-          "high": 157.95,
-          "low": 157.79,
-          "open": 157.89,
-          "quote_volume": 25361.9932,
-          "time": "2026-10-13T22:10:00Z",
-          "ts": 1791929400000
-        },
-        {
-          "base_volume": 41.07,
-          "close": 157.86,
-          "high": 157.86,
-          "low": 157.78,
-          "open": 157.81,
-          "quote_volume": 6481.4122,
-          "time": "2026-10-13T22:15:00Z",
-          "ts": 1791929700000
-        },
-        {
-          "base_volume": 237.51,
-          "close": 158.03,
-          "high": 158.08,
-          "low": 157.86,
-          "open": 157.86,
-          "quote_volume": 37527.8231,
-          "time": "2026-10-13T22:20:00Z",
-          "ts": 1791930000000
-        },
-        {
-          "base_volume": 227.65,
-          "close": 158.27,
-          "high": 158.3,
-          "low": 158.03,
-          "open": 158.03,
-          "quote_volume": 36016.5474,
-          "time": "2026-10-13T22:25:00Z",
-          "ts": 1791930300000
-        },
-        {
-          "base_volume": 282.13,
-          "close": 158.18,
-          "high": 158.27,
-          "low": 158.08,
-          "open": 158.27,
-          "quote_volume": 44628.0923,
-          "time": "2026-10-13T22:30:00Z",
-          "ts": 1791930600000
-        },
-        {
-          "base_volume": 343.04,
-          "close": 158.4,
-          "high": 158.44,
-          "low": 158.18,
-          "open": 158.18,
-          "quote_volume": 54302.306,
-          "time": "2026-10-13T22:35:00Z",
-          "ts": 1791930900000
-        },
-        {
-          "base_volume": 262.37,
-          "close": 158.7,
-          "high": 158.76,
-          "low": 158.35,
-          "open": 158.4,
-          "quote_volume": 41594.3942,
-          "time": "2026-10-13T22:40:00Z",
-          "ts": 1791931200000
-        },
-        {
-          "base_volume": 930.39,
-          "close": 158.84,
-          "high": 158.87,
-          "low": 158.66,
-          "open": 158.7,
-          "quote_volume": 147712.1122,
-          "time": "2026-10-13T22:45:00Z",
-          "ts": 1791931500000
-        },
-        {
-          "base_volume": 352.93,
-          "close": 158.99,
-          "high": 159.08,
-          "low": 158.84,
-          "open": 158.84,
-          "quote_volume": 56103.7853,
-          "time": "2026-10-13T22:50:00Z",
-          "ts": 1791931800000
-        },
-        {
-          "base_volume": 607.92,
-          "close": 158.71,
-          "high": 159.1,
-          "low": 158.71,
-          "open": 158.99,
-          "quote_volume": 96652.1179,
-          "time": "2026-10-13T22:55:00Z",
-          "ts": 1791932100000
-        },
-        {
-          "base_volume": 5471.81,
-          "close": 157.34,
-          "high": 158.71,
-          "low": 157.21,
-          "open": 158.71,
-          "quote_volume": 863077.1422,
-          "time": "2026-10-13T23:00:00Z",
-          "ts": 1791932400000
-        },
-        {
-          "base_volume": 1979.74,
-          "close": 157.8,
-          "high": 157.8,
-          "low": 157.29,
-          "open": 157.34,
-          "quote_volume": 311838.788,
-          "time": "2026-10-13T23:05:00Z",
-          "ts": 1791932700000
-        },
-        {
-          "base_volume": 1193.17,
-          "close": 157.52,
-          "high": 157.85,
-          "low": 157.41,
-          "open": 157.8,
-          "quote_volume": 188095.4075,
-          "time": "2026-10-13T23:10:00Z",
-          "ts": 1791933000000
-        },
-        {
-          "base_volume": 1005.13,
-          "close": 156.97,
-          "high": 157.54,
-          "low": 156.96,
-          "open": 157.52,
-          "quote_volume": 158091.6211,
-          "time": "2026-10-13T23:15:00Z",
-          "ts": 1791933300000
-        },
-        {
-          "base_volume": 1095.1,
-          "close": 156.75,
-          "high": 157.08,
-          "low": 156.74,
-          "open": 156.97,
-          "quote_volume": 171860.1729,
-          "time": "2026-10-13T23:20:00Z",
-          "ts": 1791933600000
-        },
-        {
-          "base_volume": 602.03,
-          "close": 156.98,
-          "high": 157.05,
-          "low": 156.72,
-          "open": 156.75,
-          "quote_volume": 94487.101,
-          "time": "2026-10-13T23:25:00Z",
-          "ts": 1791933900000
-        },
-        {
-          "base_volume": 447.52,
-          "close": 157.13,
-          "high": 157.29,
-          "low": 156.98,
-          "open": 156.98,
-          "quote_volume": 70309.1912,
-          "time": "2026-10-13T23:30:00Z",
-          "ts": 1791934200000
-        },
-        {
-          "base_volume": 745.78,
-          "close": 156.89,
-          "high": 157.22,
-          "low": 156.78,
-          "open": 157.13,
-          "quote_volume": 117071.5387,
-          "time": "2026-10-13T23:35:00Z",
-          "ts": 1791934500000
-        },
-        {
-          "base_volume": 1339.3,
-          "close": 156.18,
-          "high": 156.94,
-          "low": 156.14,
-          "open": 156.89,
-          "quote_volume": 209579.7122,
-          "time": "2026-10-13T23:40:00Z",
-          "ts": 1791934800000
-        },
-        {
-          "base_volume": 1949.09,
-          "close": 156.23,
-          "high": 156.58,
-          "low": 156.0,
-          "open": 156.18,
-          "quote_volume": 304545.9314,
-          "time": "2026-10-13T23:45:00Z",
-          "ts": 1791935100000
-        },
-        {
-          "base_volume": 2119.43,
-          "close": 156.02,
-          "high": 156.37,
-          "low": 155.7,
-          "open": 156.23,
-          "quote_volume": 330546.7537,
-          "time": "2026-10-13T23:50:00Z",
-          "ts": 1791935400000
-        },
-        {
-          "base_volume": 1289.07,
-          "close": 156.0,
-          "high": 156.16,
-          "low": 155.73,
-          "open": 156.02,
-          "quote_volume": 201111.3798,
-          "time": "2026-10-13T23:55:00Z",
-          "ts": 1791935700000
-        },
-        {
-          "base_volume": 4523.28,
-          "close": 156.93,
-          "high": 157.18,
-          "low": 155.7,
-          "open": 156.0,
-          "quote_volume": 708550.797,
-          "time": "2026-10-14T00:00:00Z",
-          "ts": 1791936000000
-        },
-        {
-          "base_volume": 3907.06,
-          "close": 158.13,
-          "high": 158.27,
-          "low": 156.4,
-          "open": 156.93,
-          "quote_volume": 615912.9376,
-          "time": "2026-10-14T00:05:00Z",
-          "ts": 1791936300000
-        },
-        {
-          "base_volume": 2119.13,
-          "close": 158.0,
-          "high": 158.55,
-          "low": 157.64,
-          "open": 158.13,
-          "quote_volume": 335067.4289,
-          "time": "2026-10-14T00:10:00Z",
-          "ts": 1791936600000
-        },
-        {
-          "base_volume": 1282.67,
-          "close": 157.76,
-          "high": 158.32,
-          "low": 157.49,
-          "open": 158.0,
-          "quote_volume": 202440.5368,
-          "time": "2026-10-14T00:15:00Z",
-          "ts": 1791936900000
-        },
-        {
-          "base_volume": 2063.12,
-          "close": 157.31,
-          "high": 157.77,
-          "low": 156.97,
-          "open": 157.76,
-          "quote_volume": 324413.0998,
-          "time": "2026-10-14T00:20:00Z",
-          "ts": 1791937200000
-        },
-        {
-          "base_volume": 792.65,
-          "close": 158.45,
-          "high": 158.45,
-          "low": 157.09,
-          "open": 157.31,
-          "quote_volume": 125200.9147,
-          "time": "2026-10-14T00:25:00Z",
-          "ts": 1791937500000
-        },
-        {
-          "base_volume": 1999.73,
-          "close": 158.9,
-          "high": 159.0,
-          "low": 158.2,
-          "open": 158.45,
-          "quote_volume": 316953.2518,
-          "time": "2026-10-14T00:30:00Z",
-          "ts": 1791937800000
-        },
-        {
-          "base_volume": 2638.98,
-          "close": 158.57,
-          "high": 159.07,
-          "low": 158.09,
-          "open": 158.9,
-          "quote_volume": 418551.7717,
-          "time": "2026-10-14T00:35:00Z",
-          "ts": 1791938100000
-        },
-        {
-          "base_volume": 1443.11,
-          "close": 157.99,
-          "high": 158.69,
-          "low": 157.81,
-          "open": 158.57,
-          "quote_volume": 228231.3187,
-          "time": "2026-10-14T00:40:00Z",
-          "ts": 1791938400000
-        },
-        {
-          "base_volume": 2025.7,
-          "close": 157.09,
-          "high": 158.12,
-          "low": 157.07,
-          "open": 157.99,
-          "quote_volume": 319322.8666,
-          "time": "2026-10-14T00:45:00Z",
-          "ts": 1791938700000
-        },
-        {
-          "base_volume": 1371.71,
-          "close": 156.79,
-          "high": 157.25,
-          "low": 156.47,
-          "open": 157.09,
-          "quote_volume": 215026.5449,
-          "time": "2026-10-14T00:50:00Z",
-          "ts": 1791939000000
-        },
-        {
-          "base_volume": 629.73,
-          "close": 156.8,
-          "high": 157.21,
-          "low": 156.59,
-          "open": 156.79,
-          "quote_volume": 98815.1312,
-          "time": "2026-10-14T00:55:00Z",
-          "ts": 1791939300000
-        },
-        {
-          "base_volume": 783.33,
-          "close": 156.33,
-          "high": 157.18,
-          "low": 156.32,
-          "open": 156.8,
-          "quote_volume": 122775.4386,
-          "time": "2026-10-14T01:00:00Z",
-          "ts": 1791939600000
-        },
-        {
-          "base_volume": 1956.19,
-          "close": 156.13,
-          "high": 156.74,
-          "low": 156.06,
-          "open": 156.33,
-          "quote_volume": 305887.5366,
-          "time": "2026-10-14T01:05:00Z",
-          "ts": 1791939900000
-        },
-        {
-          "base_volume": 1477.63,
-          "close": 156.33,
-          "high": 156.37,
-          "low": 155.85,
-          "open": 156.13,
-          "quote_volume": 230645.9807,
-          "time": "2026-10-14T01:10:00Z",
-          "ts": 1791940200000
-        },
-        {
-          "base_volume": 2612.24,
-          "close": 155.55,
-          "high": 156.33,
-          "low": 155.44,
-          "open": 156.33,
-          "quote_volume": 406758.162,
-          "time": "2026-10-14T01:15:00Z",
-          "ts": 1791940500000
-        },
-        {
-          "base_volume": 1368.04,
-          "close": 156.05,
-          "high": 156.17,
-          "low": 155.42,
-          "open": 155.55,
-          "quote_volume": 213175.5134,
-          "time": "2026-10-14T01:20:00Z",
-          "ts": 1791940800000
-        },
-        {
-          "base_volume": 1245.74,
-          "close": 156.27,
-          "high": 156.33,
-          "low": 155.79,
-          "open": 156.05,
-          "quote_volume": 194487.6128,
-          "time": "2026-10-14T01:25:00Z",
-          "ts": 1791941100000
-        },
-        {
-          "base_volume": 1409.96,
-          "close": 156.07,
-          "high": 156.5,
-          "low": 155.42,
-          "open": 156.27,
-          "quote_volume": 219859.2626,
-          "time": "2026-10-14T01:30:00Z",
-          "ts": 1791941400000
-        },
-        {
-          "base_volume": 1045.57,
-          "close": 155.91,
-          "high": 156.44,
-          "low": 155.81,
-          "open": 156.07,
-          "quote_volume": 163264.9404,
-          "time": "2026-10-14T01:35:00Z",
-          "ts": 1791941700000
-        },
-        {
-          "base_volume": 772.54,
-          "close": 155.96,
-          "high": 156.41,
-          "low": 155.83,
-          "open": 155.91,
-          "quote_volume": 120544.6179,
-          "time": "2026-10-14T01:40:00Z",
-          "ts": 1791942000000
-        },
-        {
-          "base_volume": 862.19,
-          "close": 156.18,
-          "high": 156.25,
-          "low": 155.6,
-          "open": 155.96,
-          "quote_volume": 134360.8601,
-          "time": "2026-10-14T01:45:00Z",
-          "ts": 1791942300000
-        },
-        {
-          "base_volume": 1187.72,
-          "close": 157.08,
-          "high": 157.21,
-          "low": 156.18,
-          "open": 156.18,
-          "quote_volume": 186234.0743,
-          "time": "2026-10-14T01:50:00Z",
-          "ts": 1791942600000
-        },
-        {
-          "base_volume": 470.54,
-          "close": 157.36,
-          "high": 157.44,
-          "low": 156.96,
-          "open": 157.08,
-          "quote_volume": 73949.0013,
-          "time": "2026-10-14T01:55:00Z",
-          "ts": 1791942900000
-        },
-        {
-          "base_volume": 642.8,
-          "close": 157.49,
-          "high": 157.63,
-          "low": 157.17,
-          "open": 157.36,
-          "quote_volume": 101183.8658,
-          "time": "2026-10-14T02:00:00Z",
-          "ts": 1791943200000
-        },
-        {
-          "base_volume": 1245.91,
-          "close": 157.66,
-          "high": 157.68,
-          "low": 157.49,
-          "open": 157.49,
-          "quote_volume": 196417.8961,
-          "time": "2026-10-14T02:05:00Z",
-          "ts": 1791943500000
-        }
-      ],
-      "change_24h": 0.01782,
-      "current_volume": 1245.91,
-      "ema20": 156.8620898271547,
-      "ema50": 157.04734261095263,
-      "funding": {
-        "funding_rate": 0.0,
-        "funding_rate_interval": 8.0,
-        "max_funding_rate": 0.01,
-        "min_funding_rate": -0.01,
-        "next_update": "1791964800000"
-      },
-      "funding_rate": 0.0,
-      "high_24h": 159.1,
-      "index_price": 156.7989478312315,
-      "indicators_5m": {
-        "avg_volume_20": 1359.468,
-        "current_volume": 1245.91,
-        "ema20": 156.8620898271547,
-        "ema50": 157.04734261095263,
-        "last_candle_high": 157.68,
-        "last_candle_low": 157.49,
-        "structure": {
-          "direction": "up",
-          "last_close_direction": "up",
-          "pattern": "higher_high_higher_low"
-        },
-        "today_vwap": 157.1099751342533,
-        "today_vwap_timezone": "Asia/Seoul"
-      },
-      "last_candle_high": 157.68,
-      "last_candle_low": 157.49,
-      "last_price": 157.66,
-      "long_account_ratio": null,
-      "long_position_ratio": null,
-      "long_short_account_ratio": null,
-      "long_short_position_ratio": null,
-      "long_short_ratios": {
-        "account_long_short": {
-          "long_account_ratio": null,
-          "long_short_account_ratio": null,
-          "short_account_ratio": null,
-          "ts": null
-        },
-        "position_long_short": {
-          "long_ratio": null,
-          "long_short_ratio": null,
-          "short_ratio": null,
-          "ts": null
-        },
-        "taker_buy_sell": {
-          "buy_ratio": null,
-          "buy_sell_ratio": null,
-          "buy_volume": null,
-          "sell_ratio": null,
-          "sell_volume": null,
-          "ts": null
-        }
-      },
-      "low_24h": 151.36,
-      "mark_price": 157.64,
-      "open_interest": {
-        "size": 173147.78000000023,
-        "ts": "1791943632924"
-      },
-      "open_interest_size": 173147.78000000023,
-      "product_type": "usdt-futures",
-      "short_account_ratio": null,
-      "short_position_ratio": null,
-      "structure_5m": {
-        "direction": "up",
-        "last_close_direction": "up",
-        "pattern": "higher_high_higher_low"
-      },
-      "symbol": "SKHYUSDT",
-      "taker_buy_ratio": null,
-      "taker_buy_sell_ratio": null,
-      "taker_sell_ratio": null,
-      "ticker": {
-        "base_volume_24h": 382058.68,
-        "change_24h": 0.01782,
-        "funding_rate": 0.0,
-        "high_24h": 159.1,
-        "index_price": 156.7989478312315,
-        "last_price": 157.66,
-        "low_24h": 151.36,
-        "mark_price": 157.64,
-        "quote_volume_24h": 59093970.2223,
-        "ticker_ts": "1791943632690",
-        "usdt_volume_24h": 59093970.2223
-      },
-      "today_vwap": 157.1099751342533,
-      "updated_at": "2026-10-14T02:07:15Z"
+      "today_vwap": 83280.57405477882,
+      "updated_at": "2026-10-14T02:11:36Z"
     }
   },
-  "updated_at": "2026-10-14T02:07:15Z"
+  "updated_at": "2026-10-14T02:12:37Z"
 }
